@@ -1,0 +1,42 @@
+<idea-plugin>
+    <id>com.gilleez.openaiassistant</id>
+    <name>Gilleez OpenAI Assistant (Java)</name>
+    <vendor email="dev@example.com">Gilleez</vendor>
+
+    <description><![CDATA[
+    Minimal IntelliJ plugin skeleton (Java) for calling OpenAI API:
+    - GET /v1/models
+    - POST /v1/responses (non-stream + optional SSE streaming)
+  ]]></description>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <toolWindow id="Gilleez Assistant"
+                    anchor="right"
+                    factoryClass="com.gilleez.openaiassistant.ui.GilleezToolWindowFactory"
+                    secondary="false"/>
+
+        <applicationConfigurable
+                parentId="tools"
+                id="com.gilleez.openaiassistant.settings.GilleezSettingsConfigurable"
+                displayName="Gilleez OpenAI Assistant"
+                instance="com.gilleez.openaiassistant.settings.GilleezSettingsConfigurable"/>
+    </extensions>
+
+    <actions>
+        <action id="com.gilleez.openaiassistant.actions.ExplainSelectionAction"
+                class="com.gilleez.openaiassistant.actions.ExplainSelectionAction"
+                text="Gilleez: Explain Selection"
+                description="Explain selected code using OpenAI">
+            <add-to-group group-id="EditorPopupMenu" anchor="last"/>
+        </action>
+
+        <action id="com.gilleez.openaiassistant.actions.RefactorSelectionAction"
+                class="com.gilleez.openaiassistant.actions.RefactorSelectionAction"
+                text="Gilleez: Refactor Selection (Diff)"
+                description="Suggest refactor and return unified diff">
+            <add-to-group group-id="EditorPopupMenu" anchor="last"/>
+        </action>
+    </actions>
+</idea-plugin>
