@@ -25,12 +25,12 @@ It is a intellij plugin that helps individual developers to use explaining, refa
 
 Also don't forget to create you api key from openai platform and use it.
 
-'''
+```
 public String getApiKey() {
         // Modify here to test yourself. Add api key from open ai platform and paste it here
         return "your-api-key-for-openai";
 }
-'''
+```
 
 ### There are three options for now. Explain, Refactor, Ask Questions about Coding for now.
 
