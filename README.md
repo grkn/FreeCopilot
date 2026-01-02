@@ -1,4 +1,4 @@
-<img width="1523" height="1038" alt="image" src="https://github.com/user-attachments/assets/d6ad4f3c-02bd-4144-8cd8-c071300a10f5" /># FreeCopilot for individual users
+# FreeCopilot for individual users
 
 It is a intellij plugin that helps individual developers to use explainin, refactoring, answering questions.
 
