@@ -1,11 +1,11 @@
 # FreeCopilot for individual users
 
-It is a intellij plugin that helps individual developers to use explainin, refactoring, answering questions.
+It is a intellij plugin that helps individual developers to use explaining, refactoring, answering questions.
 
 * You need to have intellij to build it and run it.
 * Java version is 21
 * It is designed for developers
- 
+* Don't forget that you need to use your "own api key" for requests.
 
 ## How to use it
 
@@ -22,8 +22,21 @@ It is a intellij plugin that helps individual developers to use explainin, refac
 
 
 
+
+Also don't forget to create you api key from openai platform and use it.
+
+'''
+public String getApiKey() {
+        // Modify here to test yourself. Add api key from open ai platform and paste it here
+        return "your-api-key-for-openai";
+}
+'''
+
 ### There are three options for now. Explain, Refactor, Ask Questions about Coding for now.
 
 It can be changed or reusable because, you can create any intellij plugin.
 
 You need to know javax.swing, java, some basic concepts for plugin development.
+
+
+
