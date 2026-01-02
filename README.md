@@ -38,5 +38,10 @@ It can be changed or reusable because, you can create any intellij plugin.
 
 You need to know javax.swing, java, some basic concepts for plugin development.
 
+## Next To Do
 
+- Change and select model in combobox
+- Add More feature like streaming(Realtime) and websocket implementations
+- To make it repo-aware asistant for other users
+- Create index(vector store) for code
 
