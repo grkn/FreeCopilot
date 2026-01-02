@@ -20,3 +20,10 @@ It is a intellij plugin that helps individual developers to use explainin, refac
 
   <img width="1523" height="1038" alt="image" src="https://github.com/user-attachments/assets/d0a97239-28b9-4c00-865a-db4b956dbfae" />
 
+
+
+### There are three options for now. Explain, Refactor, Ask Questions about Coding for now.
+
+It can be changed or reusable because, you can create any intellij plugin.
+
+You need to know javax.swing, java, some basic concepts for plugin development.
