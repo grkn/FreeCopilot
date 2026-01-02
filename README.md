@@ -32,7 +32,7 @@ public String getApiKey() {
 }
 ```
 
-### There are three options for now. Explain, Refactor, Ask Questions about Coding for now.
+### There are three options for now. Explain, Refactor, Ask Questions about Coding.
 
 It can be changed or reusable because, you can create any intellij plugin.
 
